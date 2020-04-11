@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Azakaw.Data
+namespace Azakaw.Data.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
     {

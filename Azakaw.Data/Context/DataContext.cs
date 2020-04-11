@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Azakaw.Data.Configurations;
 using Azakaw.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +14,9 @@ namespace Azakaw.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new ComplaintConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+
             SeedData(modelBuilder);
         }
 

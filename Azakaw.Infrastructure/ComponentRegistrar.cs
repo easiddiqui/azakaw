@@ -30,6 +30,7 @@ namespace Azakaw.Infrastructure
         private static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IComplaintService, ComplaintService>();
+            services.AddScoped<IUserService, UserService>();
         }
     }
 }

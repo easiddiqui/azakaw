@@ -2,6 +2,8 @@
 using Azakaw.Data.Repositories;
 using Azakaw.Domain.Models;
 using Azakaw.Domain.Repositories;
+using Azakaw.Domain.Services;
+using Azakaw.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -27,6 +29,7 @@ namespace Azakaw.Infrastructure
         // Add services here
         private static void AddServices(this IServiceCollection services)
         {
+            services.AddScoped<IComplaintService, ComplaintService>();
         }
     }
 }

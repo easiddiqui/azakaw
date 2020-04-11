@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azakaw.Infrastructure", "Az
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azakaw.Data", "Azakaw.Data\Azakaw.Data.csproj", "{6AECA867-0624-46B6-BC02-7976B3437725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azakaw.Services", "Azakaw.Services\Azakaw.Services.csproj", "{A1F07606-ABD8-4816-B5FC-CFD501BDBACE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{6AECA867-0624-46B6-BC02-7976B3437725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AECA867-0624-46B6-BC02-7976B3437725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AECA867-0624-46B6-BC02-7976B3437725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F07606-ABD8-4816-B5FC-CFD501BDBACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F07606-ABD8-4816-B5FC-CFD501BDBACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F07606-ABD8-4816-B5FC-CFD501BDBACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F07606-ABD8-4816-B5FC-CFD501BDBACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{01C43336-A47D-4D68-9F3E-2A150620853E} = {32557EEC-50B4-4AFD-9487-DE1C7B9AA60C}
 		{427919B9-6F70-4150-A225-E3B147807F51} = {32557EEC-50B4-4AFD-9487-DE1C7B9AA60C}
 		{6AECA867-0624-46B6-BC02-7976B3437725} = {32557EEC-50B4-4AFD-9487-DE1C7B9AA60C}
+		{A1F07606-ABD8-4816-B5FC-CFD501BDBACE} = {32557EEC-50B4-4AFD-9487-DE1C7B9AA60C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0A8A7DB-214A-4284-90A4-106AC4BBBA46}

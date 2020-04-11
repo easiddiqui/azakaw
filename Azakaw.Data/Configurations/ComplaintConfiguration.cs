@@ -8,6 +8,8 @@ namespace Azakaw.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Complaint> builder)
         {
+            builder.HasQueryFilter(x => !x.IsDeleted);
+
             builder
                 .HasOne(x => x.User)
                 .WithMany(x => x.Complaints)
